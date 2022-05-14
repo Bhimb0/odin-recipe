@@ -1,1 +1,1 @@
-# odin-repice
+# odin-recipe
