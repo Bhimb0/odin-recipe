@@ -1,0 +1,139 @@
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    border: 2px black solid;
+    border-bottom: 0;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .logo p {
+        font-size: larger;
+        font-weight: bold;
+    }
+
+.header-link {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+    .header-link a {
+        margin: 30px 20px;
+    }
+
+.header-button {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .header-button button {
+        width: 120px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        border: 2px white black;
+    }
+
+.main-content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+    .title-container {
+        display: flex;
+        flex-direction: column;
+        flex: 3;
+        border: 2px black solid;
+        border-right: 0;
+    }
+
+    .random {
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+        border: 2px black solid;
+    }
+
+        .list-container {
+            display: flex;
+            justify-content: center;
+            background-color: #b3a0cd;
+            border-bottom: 2px black solid;
+        }
+
+            .list {
+                width: 60%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+                .list h2 {
+                    text-align: center;
+                }
+
+                .list a {
+                    text-decoration: none;
+                    padding: 5px 0;
+                    margin: 20px 0;
+                    display: block;
+                    
+                }
+         
+         .more {
+             display: flex;
+             justify-content: space-around;
+         }
+         
+            .category-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                border-right: 1px black solid;
+            }
+                .category {
+                    padding-right: 25px;
+                    padding-left: 25px;
+                }
+
+                .category button {
+                    display: block;
+                    width: 120px;
+                    height: 30px;
+                    border-radius: 20%;
+                    margin: 10px 10px;
+                    border: 2px black solid;
+                }
+
+                
+            .morerecipe {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-left: 1px black solid;
+            }
+
+                    .morerecipe p {
+                        box-sizing: border-box;
+                        width: 60%;
+                        font-weight: bold;
+                        text-align: center;
+                        font-size: x-large;
+                    }
+
+.footer p {
+    text-align: center;
+}
